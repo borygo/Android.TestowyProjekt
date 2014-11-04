@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:8
+-keep class android.test.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:44
+-keepclassmembers class * { *** obslugaKlikniecia(...); }
+
