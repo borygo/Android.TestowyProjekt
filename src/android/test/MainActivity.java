@@ -3,7 +3,6 @@ package android.test;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -12,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.io.IOException;
@@ -21,24 +21,33 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class MainActivity extends Activity
+public class MainActivity extends Activity implements View.OnClickListener, View.OnLongClickListener
 {
     Button btPrzycisk;
     TextView tvLabelka;
     EditText etTextBox;
     CheckBox cbZaznaczenie;
+    ImageButton imgBtAlert;
+    ImageButton imgBtMap;
+    ImageButton imgBtZakoncz;
     
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
         btPrzycisk = (Button)findViewById(R.id.btPrzycisk);
         tvLabelka = (TextView)findViewById(R.id.tvLabelka);
+        tvLabelka.setText(getString(R.string.labeltext));
         etTextBox = (EditText)findViewById(R.id.etTextBox);
         cbZaznaczenie = (CheckBox)findViewById(R.id.cbZaznaczenie);
-        tvLabelka.setText(getString(R.string.labeltext));
-        tvLabelka.setTextColor(Color.GREEN);
+        imgBtAlert = (ImageButton)findViewById(R.id.przyciskObrazkowy1);
+        imgBtMap = (ImageButton)findViewById(R.id.przyciskObrazkowy2);
+        imgBtZakoncz = (ImageButton)findViewById(R.id.btZakoncz);
+        
+        imgBtZakoncz.setOnClickListener(this);
+        imgBtZakoncz.setOnLongClickListener(this);
     }
     
     @Override
@@ -105,6 +114,18 @@ public class MainActivity extends Activity
         });
         alert.show();
     }
-    
-    
+
+    public boolean onLongClick(View v) {
+        if (v == imgBtZakoncz) {
+            Toast.makeText(this, "dupa", RESULT_OK).show();
+            return true;
+        }
+        return false;
+    }
+
+    public void onClick(View v) {
+        if (v == imgBtZakoncz){
+            finish();
+        }
+    }
 }

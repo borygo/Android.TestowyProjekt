@@ -11,13 +11,10 @@
             android:id="@+id/tvLabelka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/red"
             android:text="@string/tekst_labelki"
+            android:layout_gravity="center"
             />
-        <ImageView
-            android:id="@+id/imgObrazek"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@android:drawable/star_on"/>
     </TableRow>
     <TableRow
         android:layout_width="fill_parent"
@@ -28,7 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Wpisz tu tekst">
+            android:hint="@string/hinttext">
             <requestFocus/>
         </EditText>
         <CheckBox
@@ -49,6 +46,36 @@
             android:onClick="obslugaKlikniecia"
             android:layout_span="2"
             />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/przyciskObrazkowy1"
+            android:src="@drawable/imagebuttonselector1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/opisobrazka"/>
+        <ImageButton
+            android:id="@+id/przyciskObrazkowy2"
+            android:src="@drawable/imagebuttonselector1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/opisobrazka"
+            android:clickable="true"
+            android:longClickable="true"/>
+    </TableRow>
+    <TableRow   android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <ImageButton
+            android:id="@+id/btZakoncz"
+            android:text="@string/btZakonczText"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_gravity="bottom"
+            android:textAlignment="gravity"
+            android:gravity="bottom"
+            android:contentDescription="@string/opisobrazka"
+        />
     </TableRow>
 </TableLayout>
 

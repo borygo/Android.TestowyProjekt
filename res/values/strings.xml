@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MainActivity</string>
+    <string name="app_name">Moja pierwsza apka</string>
     <string name="tekst_przycisku">Przycisk</string>
     <string name="tekst_labelki">Tekst na labelce</string>
     <string name="tekst_checkboxa">Zaznaczenie</string>
@@ -9,4 +9,7 @@
     <string name="menuitem2">Opcja 2</string>
     <string name="menuitem3">Opcja 3</string>
     <string name="labeltext">Jestem napisem labelki</string>
+    <string name="hinttext">Wpisz tu tekst</string>
+    <string name="opisobrazka">Opis obrazka</string>
+    <string name="btZakonczText">Zakończ</string>
 </resources>
