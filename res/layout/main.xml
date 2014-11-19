@@ -58,7 +58,7 @@
             android:contentDescription="@string/opisobrazka"/>
         <ImageButton
             android:id="@+id/przyciskObrazkowy2"
-            android:src="@drawable/imagebuttonselector1"
+            android:src="@drawable/imagebuttonselector2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/opisobrazka"
@@ -75,6 +75,14 @@
             android:textAlignment="gravity"
             android:gravity="bottom"
             android:contentDescription="@string/opisobrazka"
+        />
+        <ToggleButton
+            android:id="@+id/tglButton"
+            android:src="@drawable/toggleimageselector"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textOn=""
+            android:textOff=""
         />
     </TableRow>
 </TableLayout>

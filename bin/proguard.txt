@@ -1,4 +1,4 @@
-# view AndroidManifest.xml #generated:8
+# view AndroidManifest.xml #generated:9
 -keep class android.test.MainActivity { <init>(...); }
 
 # onClick res/layout/main.xml #generated:41

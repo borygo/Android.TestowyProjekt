@@ -20,17 +20,19 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int imagebuttonselector1=0x7f020001;
         public static final int imagebuttonselector2=0x7f020002;
+        public static final int toggleimageselector=0x7f020003;
     }
     public static final class id {
         public static final int btPrzycisk=0x7f060003;
         public static final int btZakoncz=0x7f060006;
         public static final int cbZaznaczenie=0x7f060002;
         public static final int etTextBox=0x7f060001;
-        public static final int option1=0x7f060007;
-        public static final int option2=0x7f060008;
-        public static final int option3=0x7f060009;
+        public static final int option1=0x7f060008;
+        public static final int option2=0x7f060009;
+        public static final int option3=0x7f06000a;
         public static final int przyciskObrazkowy1=0x7f060004;
         public static final int przyciskObrazkowy2=0x7f060005;
+        public static final int tglButton=0x7f060007;
         public static final int tvLabelka=0x7f060000;
     }
     public static final class layout {

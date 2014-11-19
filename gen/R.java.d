@@ -1,6 +1,7 @@
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\gen\android\test\R.java \
  : E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable\imagebuttonselector1.xml \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable\imagebuttonselector2.xml \
+E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable\toggleimageselector.xml \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable-hdpi\ic_launcher.png \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable-ldpi\ic_launcher.png \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\res\drawable-mdpi\ic_launcher.png \

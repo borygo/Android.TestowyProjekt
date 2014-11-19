@@ -1,6 +1,7 @@
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes.dex : \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\BuildConfig.class \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\MainActivity$1.class \
+E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\MainActivity$2.class \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\MainActivity.class \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\R$attr.class \
 E:\Dokumenty\Projekty\Repozytoria\Android.TestowyProjekt\bin\classes\android\test\R$color.class \
